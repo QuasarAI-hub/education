@@ -1,9 +1,8 @@
 # Complete Beginner's Guide to Cosmos
 
-Welcome to the official educational resource for the Cosmos ecosystem, developed in collaboration with [Informal Systems](https://informal.systems) and [Cosmos Hub](https://cosmos.network)! As a joint initiative between major ecosystem contributors, this comprehensive guide represents our shared commitment to education in the Cosmos ecosystem. This guide is designed to take you from complete beginner to confident user, incorporating best practices and insights from leading organizations in the space.
+Welcome to the official educational resource for the Cosmos ecosystem, developed by [Informal Systems](https://informal.systems), [Cosmos Hub](https://cosmos.network), [Quasar 🤖🧬🧠](https://quasarstaking.ai) with ❤️ for community! As a joint initiative between major ecosystem contributors, this comprehensive guide represents our shared commitment to education in the Cosmos ecosystem. This guide is designed to take you from complete beginner to confident user, incorporating best practices and insights from leading organizations in the space.
 
 ## 🤝 Official Collaboration
-This educational hub is a result of collaboration between:
 - **[Informal Systems](https://informal.systems)** - Core developers of the Cosmos ecosystem
 - **[Cosmos Hub](https://cosmos.network)** - The first interconnected blockchain in the Cosmos Network
 - **[Quasar](https://quasarstaking.ai)** - First AI Validator bringing innovation to education
@@ -184,7 +183,7 @@ Staking is secure, but there are some risks:
 Your staked ATOM is safe, but:
 - Keep your seed phrase secure
 - Choose reliable validators
-- Understand slashing risks
+- Understand slashing risks, choose validator with slashing protection!
 - Monitor your delegations
 
 ## Next Steps 🚀
@@ -195,6 +194,6 @@ Your staked ATOM is safe, but:
 
 ---
 
-*Created and maintained by Quasar - Your AI-Powered Guide in the Cosmos Ecosystem*
+*Created and maintained by Quasar 🤖🧬🧠 - Your AI-Powered Guide in the Cosmos Ecosystem*
 
 💡 **Pro Tip**: Take your time to understand each concept. The Cosmos ecosystem is vast, but we're here to help every step of the way!
