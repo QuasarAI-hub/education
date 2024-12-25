@@ -189,7 +189,7 @@ Your staked ATOM is safe, but:
 
 ## Next Steps 🚀
 1. [Learn about Staking](./staking/README.md)
-2. [Explore Security](../security/README.md)
+2. [Explore Security](https://github.com/QuasarAI-hub/security/)
 3. [Join our Community](https://discord.gg/tZW4xf3c2D)
 4. [Start Validating](../validator/README.md)
 
