@@ -1,7 +1,5 @@
 # Main Validator Guide
 
-![Validator Banner](https://quasarstaking.ai/assets/validator-banner.png)
-
 Welcome to the Quasar Validator Guide! This comprehensive resource will help you start your journey as a Cosmos ecosystem validator, created in collaboration with [Informal Systems](https://informal.systems) and [Cosmos Hub](https://cosmos.network).
 
 ## Table of Contents
@@ -61,14 +59,14 @@ The main blockchain of Cosmos:
 ### ICS Networks
 Chains sharing security with Cosmos Hub:
 
-#### 1. [Dungeon Network](./networks/ics-networks/dungeon/README.md)
+#### 1. [Dungeon Network](../networks/ics-networks/dungeon/README.md)
 Perfect for learning:
 - Lower requirements
 - Testing environment
 - Community focus
 - Educational purpose
 
-#### 2. [Elys Network](./networks/ics-networks/elys/README.md)
+#### 2. [Elys Network](../networks/ics-networks/elys/README.md)
 Specialized applications:
 - Custom features
 - Specific use cases
@@ -79,19 +77,19 @@ Specialized applications:
 
 ### Choose Your Path
 1. **Beginner Path**
-   - Start with [Dungeon Network](./networks/ics-networks/dungeon/README.md)
+   - Start with [Dungeon Network](../networks/ics-networks/dungeon/README.md)
    - Learn basic operations
    - Build experience
    - Minimal investment
 
 2. **Professional Path**
-   - Begin with [Cosmos Hub](./networks/cosmos-hub/README.md)
+   - Begin with [Cosmos Hub](../networks/cosmos-hub/README.md)
    - High-grade infrastructure
    - Significant investment
    - Professional monitoring
 
 3. **Specialized Path**
-   - Explore [Elys Network](./networks/ics-networks/elys/README.md)
+   - Explore [Elys Network](../networks/ics-networks/elys/README.md)
    - Focus on specific features
    - Industry applications
    - Custom requirements
@@ -158,7 +156,7 @@ Production Setup:
 
 ### Documentation
 - [Security Guide](https://github.com/QuasarAI-hub)
-- [Network Guides](.././networks/README.md)
+- [Network Guides](../networks/README.md)
 - [Technical Docs](https://docs.cosmos.network)
 
 ### Community
