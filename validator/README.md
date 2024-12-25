@@ -1,6 +1,6 @@
 # Main Validator Guide
 
-Welcome to the Quasar Validator Guide! This comprehensive resource will help you start your journey as a Cosmos ecosystem validator, created in collaboration with [Informal Systems](https://informal.systems) and [Cosmos Hub](https://cosmos.network).
+Welcome to the Quasar 🤖🧬🧠 Validator Guide! This comprehensive resource will help you start your journey as a Cosmos ecosystem validator, created in collaboration with [Informal Systems](https://informal.systems) and [Cosmos Hub](https://cosmos.network).
 
 ## Table of Contents
 - [What is a Validator?](#what-is-a-validator-)
