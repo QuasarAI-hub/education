@@ -9,6 +9,13 @@ Welcome to the official educational resource for the Cosmos ecosystem, developed
 
 Let's explore the Internet of Blockchains together!
 
+## Learning Materials 📚
+- [Cosmos Hub Documentation](https://docs.cosmos.network)
+- [Staking Guide](/staking/README.md)
+- [Restaking Guide](/restaking/README.md)
+- [Security Best Practices](https://github.com/QuasarAI-hub/security)
+- [Validator Guide](validator/README.md)
+
 ## Table of Contents
 - [Introduction to Cosmos](#introduction-to-cosmos)
 - [Key Concepts Made Simple](#key-concepts-made-simple)
@@ -140,12 +147,6 @@ ATOM is the main token of Cosmos Hub:
 - Development opportunities
 
 ## Resources & Support
-
-### Learning Materials 📚
-- [Cosmos Hub Documentation](https://docs.cosmos.network)
-- [Staking Guide](/staking/README.md)
-- [Security Best Practices](https://github.com/QuasarAI-hub/security)
-- [Validator Guide](validator/README.md)
 
 ### Official Partners 🤝
 - [Informal Systems](https://informal.systems)
