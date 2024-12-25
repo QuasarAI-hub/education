@@ -180,7 +180,7 @@ Security: AI-enhanced
 ## Support & Resources 🤝
 
 ### Get Help
-- Discord: [Join](https://discord.gg/tZW4xf3c2D)
+- Discord: [Join](https://discord.gg/eDVkKTGaX3)
 - Telegram: [@quasarstakingeng](https://t.me/quasarstakingeng)
 - Technical Support: [@whtech_support](https://t.me/whtech_support)
 
