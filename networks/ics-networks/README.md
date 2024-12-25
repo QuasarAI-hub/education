@@ -1,7 +1,5 @@
 # ICS Networks Guide
 
-![ICS Networks Banner](https://quasarstaking.ai/assets/ics-banner.png)
-
 Welcome to the comprehensive guide on Inter-Chain Security (ICS) networks in the Cosmos ecosystem. Learn how to participate in ICS networks as a Cosmos Hub validator.
 
 ## Table of Contents

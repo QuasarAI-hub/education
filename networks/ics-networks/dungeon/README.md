@@ -1,7 +1,5 @@
 # Dungeon Network Guide
 
-![Dungeon Network Banner](https://quasarstaking.ai/assets/dungeon-banner.png)
-
 Welcome to the Dungeon Network guide - an ICS (Inter-Chain Security) chain designed for learning and testing in the Cosmos ecosystem.
 
 ## Table of Contents

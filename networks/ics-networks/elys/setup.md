@@ -34,9 +34,9 @@ source ~/.bash_profile
 cd $HOME
 mkdir -p $HOME/src
 cd src
-git clone git@github.com:Crypto-Dungeon/dungeonchain.git
-cd dungeonchain
-git checkout v2.0.0
+git clone https://github.com/elys-network/elys
+cd elys
+git checkout v1.4.0
 make install
 ```
 
@@ -45,15 +45,15 @@ make install
 Replace <node_name>
 
 ```bash
-~/go/bin/dungeond init <node_name> --chain-id="dungeon-1"
+~/go/bin/elysd init <node_name> --chain-id="elys-1"
 ```
 
 ### Download genesis.json
 
 ```bash
-cd $HOME/.dungeonchain/config/
+cd $HOME/.elys/config/
 rm -f genesis.json
-wget https://github.com/Crypto-Dungeon/dungeonchain/raw/main/network/dungeon-1/genesis.json.tar.gz
+wget https://github.com/elys-network/networks/blob/main/mainnet/genesis.json
 tar -xvf genesis.json.tar.gz
 rm -f genesis.json.tar.gz
 ```
@@ -71,19 +71,19 @@ go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest
 You can find cosmovisor binary in `~/go/bin/` folder. After that you should create
 
 ```bash
-mkdir -p $HOME/.dungeonchain/cosmovisor/genesis/bin && mkdir -p $HOME/.dungeonchain/cosmovisor/upgrades
-cp $HOME/go/bin/dungeond $HOME/.dungeonchain/cosmovisor/genesis/bin/dungeond 
+mkdir -p $HOME/.elys/cosmovisor/genesis/bin && mkdir -p $HOME/.elys/cosmovisor/upgrades
+cp $HOME/go/bin/elysd $HOME/.elys/cosmovisor/genesis/bin/elysd
 ```
 
 Set up service:
 
 ```bash
-SERVICE_FILE="/etc/systemd/system/dungeond.service"
-DAEMON_HOME="$HOME/.dungeonchain"
+SERVICE_FILE="/etc/systemd/system/elysd.service"
+DAEMON_HOME="$HOME/.elys"
 
 sudo bash -c "cat <<EOL > $SERVICE_FILE
 [Unit]
-Description=dungeond Daemon cosmovisor
+Description=elysd Daemon cosmovisor
 After=network-online.target
 
 [Service]
@@ -92,7 +92,7 @@ ExecStart=/home/$USER/go/bin/cosmovisor start
 Restart=always
 RestartSec=3
 LimitNOFILE=4096
-Environment=\"DAEMON_NAME=dungeond\"
+Environment=\"DAEMON_NAME=elysd\"
 Environment=\"DAEMON_HOME=$DAEMON_HOME\"
 Environment=\"DAEMON_ALLOW_DOWNLOAD_BINARIES=false\"
 Environment=\"DAEMON_RESTART_AFTER_UPGRADE=true\"
@@ -111,17 +111,17 @@ sudo systemctl daemon-reload
 Set up service:
 
 ```bash
-SERVICE_FILE="/etc/systemd/system/dungeond.service"
+SERVICE_FILE="/etc/systemd/system/elysd.service"
 USER=$(whoami)
 
 sudo cat <<EOL > $SERVICE_FILE
 [Unit]
-Description=dungeond Daemon
+Description=elysd Daemon
 After=network-online.target
 
 [Service]
 User=$USER
-ExecStart=$HOME/go/bin/dungeond start
+ExecStart=$HOME/go/bin/elysd start
 Restart=always
 RestartSec=3
 LimitNOFILE=65535
@@ -138,7 +138,7 @@ sudo systemctl daemon-reload
 
 ```bash
 PEERS=f174206d6b3dbc2dd17cdd884bdfc6ad37268a09@67.218.8.88:26665,5545dc6fa6537ce464a49593bac02258fd963e57@67.218.8.88:26665,cd2311ffdae014daff80c343c26a393e714c7973@172.31.23.120:26656
-sed -i.bak -e "s/^persistent*peers *=.\_/persistent_peers = \"$PEERS\"/" $HOME/.dungeonchain/config/config.toml
+sed -i.bak -e "s/^persistent*peers *=.\_/persistent_peers = \"$PEERS\"/" $HOME/.elys/config/config.toml
 ```
 
 ### Sync node:
@@ -153,7 +153,7 @@ TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.bloc
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+)._$|\1true| ; \
 s|^(rpc_servers[[:space:]]+=[[:space:]]+)._$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.dungeonchain/config/config.toml
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.elys/config/config.toml
 ```
 
 Check node status
@@ -165,13 +165,13 @@ curl -s http://localhost:26657/status | jq '.result.sync_info.catching_up'
 ### Start service
 
 ```bash
-sudo systemctl enable dungeond.service && sudo systemctl start dungeond.service && journalctl -u dungeond.service -f
+sudo systemctl enable elysd.service && sudo systemctl start elysd.service && journalctl -u elysd.service -f
 ```
 
 ## If need upgrade
 
 ```bash
-cd $HOME/src/dungeonchain
+cd $HOME/src/elys
 git fetch origin && git checkout v3.0.0
 make build
 cd build
@@ -182,31 +182,23 @@ Depends of type to running a node (simple running or with cosmovisor)
 Cosmovisor:
 
 ```bash
-mkdir -p $HOME/.dungeonchain/cosmovisor/upgrades/v3.0.0/bin/
-mv dungeond $HOME/.dungeonchain/cosmovisor/upgrades/v3.0.0/bin/
+mkdir -p $HOME/.elys/cosmovisor/upgrades/v3.0.0/bin/
+mv elysd $HOME/.elys/cosmovisor/upgrades/v3.0.0/bin/
 ```
 
 Simple running:
 
 ```bash
-rm -f $HOME/go/bin/dungeond
-mv dungeond $HOME/go/bin/
+rm -f $HOME/go/bin/elysd
+mv elysd $HOME/go/bin/
 ```
 
 ## Creating validator
 
-To correctly start the validator your validator address need to be in chain white list. join the CryptoDungeon Discord server to get more information: https://discord.com/invite/DWKX7Y6Dtx
-
-In order to create a validator in the consumer chain, a validator is required in the provider network. For the main dungeon-1 network, cosmoshub-4 is the provider.
-
-Before creating a validator in dungeon-1, it is required to register a validator in the cosmoshub-4 network
-
-Getting the public key of the future validator
-
 Replace <wallet>
 
 ```bash
-PUBKEY=$(~/go/bin/dungeond keys show <wallet> --pubkey)
+PUBKEY=$(~/go/bin/elysd keys show <wallet> --pubkey)
 ```
 
 Registering validator in cosmoshub-4
@@ -215,10 +207,10 @@ Registering validator in cosmoshub-4
 gaiad tx provider opt-in 5 $PUBKEY --from <wallet> --fees=10000uatom --gas=auto --gas-adjustment 1.5 --chain-id cosmoshub-4
 ```
 
-Creating a validator on the dungeon-1 network
+Creating a validator on the elys-1 network
 
 ```bash
-AMOUNT="1000000udgn"
+AMOUNT="1000000uelys"
 MONIKER=<validator-moniker>
 IDENTITY=<identity>
 WEBSITE=<validator-website>
@@ -243,7 +235,7 @@ cat <<EOL > validator.json
 }
 EOL
 
-dungeond tx staking create-validator validator.json --from <wallet> --chain-id "dungeon-1"
+elysd tx staking create-validator validator.json --from <wallet> --chain-id "elys-1"
 ```
 
 # Useful commands
@@ -253,44 +245,45 @@ dungeond tx staking create-validator validator.json --from <wallet> --chain-id "
 ### Add new key
 
 ```bash
-dungeond keys add wallet
+elysd keys add wallet
 ```
 
 ### Recover existing key
 
 ```bash
-dungeond keys add wallet --recover
+elysd keys add wallet --recover
 ```
 
 ### List all keys
 
 ```bash
-dungeond keys list
+elysd keys list
 ```
 
 ### Delete key
 
 ```bash
-dungeond keys delete wallet
+elysd keys delete wallet
 ```
 
 ### Export key to a file
 
 ```bash
-dungeond keys export wallet
+elysd keys export wallet
 ```
 
 ### Import key from a file
 
 ```bash
-dungeond keys import wallet wallet.backup
+elysd keys import wallet wallet.backup
 ```
 
 ## Validator mangment
+
 ### Edit validator
 
 ```bash
-dungeond tx staking edit-validator \
+elysd tx staking edit-validator \
 --new-moniker "YOUR_MONIKER_NAME" \
 --identity "YOUR_KEYBASE_ID" \
 --details "YOUR_DETAILS" \
@@ -300,17 +293,17 @@ dungeond tx staking edit-validator \
 --from wallet \
 --gas-adjustment 1.4 \
 --gas auto \
---gas-prices 0.005uatom 
+--gas-prices 0.005uatom
 ```
 
 ### Unjail validator
 
 ```bash
-dungeond tx slashing unjail --from wallet --chain-id cosmoshub-4 --gas-adjustment 1.4 --gas auto --gas-prices 0.05uatom 
+elysd tx slashing unjail --from wallet --chain-id cosmoshub-4 --gas-adjustment 1.4 --gas auto --gas-prices 0.05uatom
 ```
 
 ### Jail reason
 
 ```bash
-dungeond query slashing signing-info $(dungeond comet show-validator)
+elysd query slashing signing-info $(elysd comet show-validator)
 ```
