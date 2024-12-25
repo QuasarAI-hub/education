@@ -54,8 +54,6 @@ Replace <node_name>
 cd $HOME/.elys/config/
 rm -f genesis.json
 wget https://github.com/elys-network/networks/blob/main/mainnet/genesis.json
-tar -xvf genesis.json.tar.gz
-rm -f genesis.json.tar.gz
 ```
 
 ### Create Service
