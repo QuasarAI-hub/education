@@ -143,8 +143,7 @@ graph TD
 
 ### Documentation
 - [Cosmos Hub Docs](https://hub.cosmos.network/main/validators/overview.html)
-- [ICS Documentation](https://docs.cosmos.network/main/ics/overview)
-- [Technical Guides](../README.md)
+- [ICS Documentation]((https://docs.cosmos.network/main/learn/intro/overview))
 
 ### Community
 - [Discord](https://discord.gg/tZW4xf3c2D)
