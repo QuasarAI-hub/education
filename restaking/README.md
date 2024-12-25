@@ -204,7 +204,7 @@ Verify:
 - Documentation: [Restake Docs](https://docs.restake.app)
 
 ### Useful Links
-- [Restake.app](https://restake.app)
+- [Restake.app](https://restake.app/cosmoshub/cosmosvaloper14yncgrhz5t0j6p9yfm0eht65ltter2kqwkn6dc)
 - [Quasar Validator](https://quasarstaking.ai)
 - [Cosmos Hub](https://cosmos.network)
 
