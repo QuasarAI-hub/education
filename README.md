@@ -144,9 +144,9 @@ ATOM is the main token of Cosmos Hub:
 ### Learning Materials 📚
 - [Informal Systems Documentation](https://docs.informal.systems)
 - [Cosmos Hub Documentation](https://docs.cosmos.network)
-- [Staking Guide](../staking/README.md)
-- [Security Best Practices](../../Security/README.md)
-- [Validator Guide](../validator/README.md)
+- [Staking Guide](/staking/README.md)
+- [Security Best Practices](../Security/README.md)
+- [Validator Guide](validator/README.md)
 
 ### Official Partners 🤝
 - [Informal Systems Academy](https://informal.systems/academy)
@@ -161,8 +161,8 @@ ATOM is the main token of Cosmos Hub:
 
 ### Tools & Resources 🛠️
 - Transaction Checker Bot: [@QuasarValidatorEngBot](https://t.me/QuasarValidatorEngBot)
-- Network Explorer: [Mintscan](https://www.mintscan.io/cosmos)
-- Wallet: [Keplr](https://www.keplr.app/)
+- Network Explorers: [Mintscan](https://www.mintscan.io/cosmos), [Ping.pub](https://ping.pub/)
+- Wallets: [Keplr](https://www.keplr.app/), [Leap](https://www.leapwallet.io/)
 
 ## Common Questions
 
@@ -187,10 +187,10 @@ Your staked ATOM is safe, but:
 - Monitor your delegations
 
 ## Next Steps 🚀
-1. [Learn about Staking](./staking/README.md)
+1. [Learn about Staking](staking/README.md)
 2. [Explore Security](https://github.com/QuasarAI-hub/security/)
 3. [Join our Community](https://discord.gg/tZW4xf3c2D)
-4. [Start Validating](../validator/README.md)
+4. [Start Validating](validator/README.md)
 
 ---
 
