@@ -204,7 +204,7 @@ PUBKEY=$(~/go/bin/elysd keys show <wallet> --pubkey)
 Registering validator in cosmoshub-4
 
 ```bash
-gaiad tx provider opt-in 5 $PUBKEY --from <wallet> --fees=10000uatom --gas=auto --gas-adjustment 1.5 --chain-id cosmoshub-4
+gaiad tx provider opt-in 21 $PUBKEY --from <wallet> --fees=10000uatom --gas=auto --gas-adjustment 1.5 --chain-id cosmoshub-4
 ```
 
 Creating a validator on the elys-1 network
