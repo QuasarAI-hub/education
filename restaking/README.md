@@ -3,13 +3,13 @@
 Welcome to the comprehensive guide on restaking using [Restake.app](https://restake.app). Learn how to automate your staking rewards and maximize your earnings in the Cosmos ecosystem.
 
 ## Table of Contents
-- [What is Restaking?](#what-is-restaking)
-- [Why Use Restake.app?](#why-use-restakeapp)
-- [Getting Started](#getting-started)
-- [Step-by-Step Setup](#step-by-step-setup)
-- [Best Practices](#best-practices)
-- [Advanced Features](#advanced-features)
-- [Troubleshooting](#troubleshooting)
+- [What is Restaking?](#what-is-restaking-)
+- [Why Use Restake.app?](#why-use-restakeapp-)
+- [Getting Started](#getting-started-)
+- [Step-by-Step Setup](#step-by-step-setup-)
+- [Best Practices](#best-practices-)
+- [Advanced Features](#advanced-features-)
+- [Troubleshooting](#troubleshooting-)
 
 ## What is Restaking? 🔄
 

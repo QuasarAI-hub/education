@@ -5,12 +5,10 @@
 Welcome to the Elys Network guide - a specialized ICS (Inter-Chain Security) chain focusing on advanced DeFi capabilities in the Cosmos ecosystem.
 
 ## Table of Contents
-- [Network Overview](#network-overview)
-- [Getting Started](#getting-started)
-- [Opt-In Process](#opt-in-process)
-- [Validator Setup](#validator-setup)
-- [Operation Guide](#operation-guide)
-- [Features & Capabilities](#features--capabilities)
+- [Network Overview](#network-overview-)
+- [Getting Started](#getting-started-)
+- [Resource Management](#support--resources-)
+- [FAQ](#faq-)
 
 ## Network Overview 🌟
 

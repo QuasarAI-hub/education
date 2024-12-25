@@ -3,11 +3,11 @@
 Welcome to our comprehensive guide on Cosmos ecosystem networks! Understand the different types of networks available for validation and choose the one that best suits your goals.
 
 ## Table of Contents
-- [Understanding Network Types](#understanding-network-types)
-- [Network Comparison](#network-comparison)
-- [Making the Right Choice](#making-the-right-choice)
+- [Understanding Network Types](#understanding-network-types-)
+- [Network Comparison](#network-comparison-)
+- [Making the Right Choice](#making-the-right-choice-)
 - [Network-Specific Guides](#network-specific-guides)
-- [Resources & Support](#resources--support)
+- [Resources & Support](#resources--support-)
 
 ## Understanding Network Types 🌐
 

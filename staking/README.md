@@ -3,14 +3,14 @@
 Welcome to the comprehensive guide on staking in the Cosmos ecosystem. Learn how to earn rewards while securing the network with Quasar - the first AI-powered validator.
 
 ## Table of Contents
-- [What is Staking?](#what-is-staking)
-- [Why Should You Stake?](#why-should-you-stake)
-- [How Staking Works](#how-staking-works)
-- [Wallet Setup](#wallet-setup)
-- [How to Start Staking](#how-to-start-staking)
-- [Managing Your Stake](#managing-your-stake)
-- [Rewards & Risks](#rewards--risks)
-- [Resources & Support](#resources--support)
+- [What is Staking?](#what-is-staking-)
+- [Why Should You Stake?](#why-should-you-stake-)
+- [How Staking Works](#how-staking-works-)
+- [Wallet Setup](#wallet-setup-)
+- [How to Start Staking](#how-to-start-staking-)
+- [Managing Your Stake](#managing-your-stake-)
+- [Rewards & Risks](#rewards--risks-)
+- [Resources & Support](#support--resources-)
 
 ## What is Staking? 🌟
 

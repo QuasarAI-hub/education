@@ -3,15 +3,15 @@
 Welcome to the Cosmos Hub validator guide. As the flagship chain of the Cosmos ecosystem, Cosmos Hub maintains the highest standards for validators. This guide will help you understand and meet these requirements.
 
 ## Table of Contents
-- [Overview](#overview-🌟)
-- [Requirements](#requirements-💻)
-- [Architecture](#architecture-🏗️)
-- [Getting Started](#getting-started-🚀)
+- [Overview](#overview-)
+- [Requirements](#requirements-)
+- [Architecture](#architecture-)
+- [Getting Started](#getting-started-)
 - [Operation Guide](#operation-guide)
-- [Best Practices](#best-practices-📚)
-- [Advanced Topics](#advanced-topics-🔬)
-- [Resources & Support](#resources--support-🤝)
-- [FAQ](#faq-❓)
+- [Best Practices](#best-practices-)
+- [Advanced Topics](#advanced-topics-)
+- [Resources & Support](#resources--support-)
+- [FAQ](#faq-)
 
 ## Overview 🌟
 
@@ -114,8 +114,6 @@ graph TD
 
 Detailed in [setup.md](./setup.md)
 
-### Maintenance Procedures
-Detailed in [maintenance.md](./maintenance.md)
 
 ## Best Practices 📚
 

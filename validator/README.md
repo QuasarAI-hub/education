@@ -5,13 +5,13 @@
 Welcome to the Quasar Validator Guide! This comprehensive resource will help you start your journey as a Cosmos ecosystem validator, created in collaboration with [Informal Systems](https://informal.systems) and [Cosmos Hub](https://cosmos.network).
 
 ## Table of Contents
-- [What is a Validator?](#what-is-a-validator)
+- [What is a Validator?](#what-is-a-validator-)
 - [Core Responsibilities](#core-responsibilities)
-- [Types of Networks](#types-of-networks)
-- [Getting Started](#getting-started)
-- [Essential Requirements](#essential-requirements)
-- [Success Path](#success-path)
-- [Resources & Support](#resources--support)
+- [Types of Networks](#types-of-networks-)
+- [Getting Started](#getting-started-)
+- [Essential Requirements](#essential-requirements-)
+- [Success Path](#success-path-)
+- [Resources & Support](#resources--support-)
 
 ## What is a Validator? 🎯
 

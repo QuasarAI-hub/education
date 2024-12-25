@@ -3,12 +3,11 @@
 Welcome to the Dungeon Network guide - an ICS (Inter-Chain Security) chain designed for learning and testing in the Cosmos ecosystem.
 
 ## Table of Contents
-- [Network Overview](#network-overview)
-- [Getting Started](#getting-started)
-- [Opt-In Process](#opt-in-process)
+- [Network Overview](#network-overview-)
+- [Getting Started](#getting-started-)
 - [Validator Setup](#validator-setup)
-- [Operation Guide](#operation-guide)
-- [Resource Management](#resource-management)
+- [Resource Management](#support--resources-)
+- [FAQ](#faq-)
 
 ## Network Overview 🌟
 
