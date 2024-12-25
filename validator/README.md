@@ -83,7 +83,7 @@ Specialized applications:
    - Minimal investment
 
 2. **Professional Path**
-   - Begin with [Cosmos Hub](../networks/cosmos-hub/README.md)
+   - Begin with [Cosmos Hub](../networks/cosmoshub/README.md)
    - High-grade infrastructure
    - Significant investment
    - Professional monitoring
