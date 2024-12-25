@@ -35,7 +35,7 @@ Minimum Requirements:
 - Uptime: 99.9%+
 ```
 
-[Detailed Cosmos Hub Guide →](./cosmos-hub/README.md)
+[Detailed Cosmos Hub Guide →](./cosmoshub/README.md)
 
 ### ICS (Inter-Chain Security) Networks
 
@@ -133,7 +133,6 @@ graph TD
 ### Cosmos Hub
 - [Complete Guide](./cosmoshub/README.md)
 - [Setup Instructions](./cosmoshub/setup.md)
-- [Maintenance Guide](./cosmoshub/maintenance.md)
 
 ### ICS Networks
 - [Dungeon Network Guide](./ics-networks/dungeon/README.md)

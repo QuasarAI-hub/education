@@ -157,8 +157,8 @@ Production Setup:
 ## Resources & Support 📚
 
 ### Documentation
-- [Security Guide](../../Security/README.md)
-- [Network Guides](./networks/README.md)
+- [Security Guide](https://github.com/QuasarAI-hub)
+- [Network Guides](.././networks/README.md)
 - [Technical Docs](https://docs.cosmos.network)
 
 ### Community
@@ -169,14 +169,13 @@ Production Setup:
 ### Support
 - Technical: [@whtech_support](https://t.me/whtech_support)
 - Community: [Forum](https://forum.cosmos.network)
-- Updates: [Newsletter](https://quasarstaking.ai/newsletter)
 
 ## FAQ ❓
 
 ### Which network should I start with?
-- New to validation? Start with [Dungeon](./networks/ics-networks/dungeon/README.md)
-- Experienced operator? Consider [Cosmos Hub](./networks/cosmos-hub/README.md)
-- Specific use case? Check [Elys](./networks/ics-networks/elys/README.md)
+- New to validation? Start with [Dungeon](../networks/ics-networks/dungeon/README.md)
+- Experienced operator? Consider [Cosmos Hub](../networks/cosmoshub/README.md)
+- Specific use case? Check [Elys](../networks/ics-networks/elys/README.md)
 
 ### What are the main challenges?
 - Maintaining high uptime

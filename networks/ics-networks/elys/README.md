@@ -1,7 +1,5 @@
 # Elys Network Guide
 
-![Elys Network Banner](https://quasarstaking.ai/assets/elys-banner.png)
-
 Welcome to the Elys Network guide - a specialized ICS (Inter-Chain Security) chain focusing on advanced DeFi capabilities in the Cosmos ecosystem.
 
 ## Table of Contents

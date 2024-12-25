@@ -142,7 +142,7 @@ sed -i.bak -e "s/^persistent*peers *=.\_/persistent_peers = \"$PEERS\"/" $HOME/.
 ### Sync node:
 
 ```bash
-SNAP_RPC="https://dungeon.rpc.quasarstaking.ai:443"
+SNAP_RPC="https://elys.rpc.quasarstaking.ai:443"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \

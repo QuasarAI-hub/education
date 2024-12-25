@@ -238,9 +238,7 @@ gaiad query provider consumer-validator-assignment <chain-id>
 
 ### Documentation
 
-- [Official ICS Docs](https://docs.cosmos.network/main/ics/overview)
-- [Technical Specs](./technical-specs.md)
-- [Network Guides](./networks/README.md)
+- [Official ICS Docs](https://cosmos.network/interchain-security/)
 
 ### Community Support
 

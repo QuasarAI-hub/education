@@ -176,8 +176,7 @@ Primary DC      Backup DC
 
 ### Documentation
 - [Official Docs](https://hub.cosmos.network)
-- [Technical Specs](./technical-specs.md)
-- [FAQ](./faq.md)
+- [Technical Specs](https://hub.cosmos.network/main/hub-tutorials/join-mainnet#hardware)
 
 ### Support Channels
 - Discord: [Join](https://discord.gg/tZW4xf3c2D)

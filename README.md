@@ -142,16 +142,15 @@ ATOM is the main token of Cosmos Hub:
 ## Resources & Support
 
 ### Learning Materials 📚
-- [Informal Systems Documentation](https://docs.informal.systems)
 - [Cosmos Hub Documentation](https://docs.cosmos.network)
 - [Staking Guide](/staking/README.md)
-- [Security Best Practices](../Security/README.md)
+- [Security Best Practices](https://github.com/QuasarAI-hub/security)
 - [Validator Guide](validator/README.md)
 
 ### Official Partners 🤝
-- [Informal Systems Academy](https://informal.systems/academy)
+- [Informal Systems](https://informal.systems)
 - [Cosmos Hub Learning](https://cosmos.network/learn)
-- [Quasar Educational Resources](https://quasarstaking.ai/learn)
+- [Quasar](https://quasarstaking.ai)
 
 ### Community Support 🤝
 - [Discord Server](https://discord.gg/tZW4xf3c2D)
