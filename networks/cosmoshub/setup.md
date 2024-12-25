@@ -281,3 +281,14 @@ gaiad tx slashing unjail --from wallet --chain-id cosmoshub-4 --gas-adjustment 1
 gaiad query slashing signing-info $(gaiad comet show-validator)
 ```
 
+### Get commissions
+
+```bash
+gaiad tx distribution withdraw-rewards VALOPER \
+  --from WALLET \
+  --commission \
+  --chain-id cosmoshub-4 \
+  --gas auto \
+  --gas-adjustment 1.4 \
+  --gas-prices 0.05uatom 
+```

@@ -305,3 +305,16 @@ elysd tx slashing unjail --from wallet --chain-id cosmoshub-4 --gas-adjustment 1
 ```bash
 elysd query slashing signing-info $(elysd comet show-validator)
 ```
+
+### Get commissions
+
+```bash
+elysd query distribution commission <VALOPER> --output json
+
+elysd tx distribution withdraw-rewards <VALOPER> \
+  --from WALLET \
+  --commission \
+  --chain-id dungeon-1 \
+  --gas-prices 0.05uelys \
+  -y
+```

@@ -314,3 +314,16 @@ dungeond tx slashing unjail --from wallet --chain-id cosmoshub-4 --gas-adjustmen
 ```bash
 dungeond query slashing signing-info $(dungeond comet show-validator)
 ```
+
+### Get commissions
+
+```bash
+dungeond query distribution commission <VALOPER> --output json
+
+dungeond tx distribution withdraw-rewards <VALOPER> \
+  --from WALLET \
+  --commission \
+  --chain-id dungeon-1 \
+  --gas-prices 0.05udgn \
+  -y
+```
