@@ -155,7 +155,7 @@ Production Setup:
 ## Resources & Support 📚
 
 ### Documentation
-- [Security Guide](https://github.com/QuasarAI-hub)
+- [Security Guide](https://github.com/QuasarAI-hub/security)
 - [Network Guides](../networks/README.md)
 - [Technical Docs](https://docs.cosmos.network)
 
