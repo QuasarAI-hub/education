@@ -149,11 +149,11 @@ ATOM is the main token of Cosmos Hub:
 
 ### Official Partners 🤝
 - [Informal Systems](https://informal.systems)
-- [Cosmos Hub Learning](https://cosmos.network/learn)
+- [Cosmos Hub](https://cosmos.network)
 - [Quasar 🤖🧬🧠](https://quasarstaking.ai)
 
 ### Community Support 🤝
-- [Discord Server](https://discord.gg/tZW4xf3c2D)
+- [Discord Server](https://discord.gg/eDVkKTGaX3)
 - [Telegram Group](https://t.me/quasarstakingeng)
 - [Twitter Updates](https://twitter.com/quasarstaking)
 - Email: support@quasarstaking.ai
@@ -188,7 +188,7 @@ Your staked ATOM is safe, but:
 ## Next Steps 🚀
 1. [Learn about Staking](staking/README.md)
 2. [Explore Security](https://github.com/QuasarAI-hub/security/)
-3. [Join our Community](https://discord.gg/tZW4xf3c2D)
+3. [Join our Community](https://discord.gg/eDVkKTGaX3)
 4. [Start Validating](validator/README.md)
 
 ---
