@@ -188,8 +188,8 @@ Your staked ATOM is safe, but:
 - Monitor your delegations
 
 ## Next Steps 🚀
-1. [Learn about Staking](../staking/README.md)
-2. [Explore Security](../../Security/README.md)
+1. [Learn about Staking](./staking/README.md)
+2. [Explore Security](../security/README.md)
 3. [Join our Community](https://discord.gg/tZW4xf3c2D)
 4. [Start Validating](../validator/README.md)
 
