@@ -165,7 +165,7 @@ Production Setup:
 - [Twitter](https://twitter.com/quasarstaking)
 
 ### Support
-- Technical: [@whtech_support](https://t.me/whtech_support)
+- Technical: [@LDPFJ](https://t.me/LDPFJ)
 - Community: [Forum](https://forum.cosmos.network)
 
 ## FAQ ❓

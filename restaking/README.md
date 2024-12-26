@@ -199,7 +199,7 @@ Verify:
 ## Support & Resources 🆘
 
 ### Need Help?
-- Technical Support: [@whtech_support](https://t.me/whtech_support)
+- Technical Support: [@LDPFJ](https://t.me/LDPFJ)
 - Community Chat: [Telegram](https://t.me/quasarstakingeng)
 - Documentation: [Restake Docs](https://docs.restake.app)
 

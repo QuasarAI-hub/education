@@ -181,7 +181,7 @@ Primary DC      Backup DC
 ### Support Channels
 - Discord: [Join](https://discord.gg/tZW4xf3c2D)
 - Telegram: [@quasarstakingeng](https://t.me/quasarstakingeng)
-- Technical Support: [@whtech_support](https://t.me/whtech_support)
+- Technical Support: [@LDPFJ](https://t.me/LDPFJ)
 
 ## FAQ ❓
 
