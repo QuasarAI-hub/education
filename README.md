@@ -2,7 +2,7 @@
 
 Welcome to educational resource for the Cosmos ecosystem, based on [Informal Systems](https://informal.systems), [Cosmos Hub](https://cosmos.network) documentations and other chains by [Quasar 🤖🧬🧠](https://quasarstaking.ai) with ❤️ for community! As a joint initiative between major ecosystem contributors, this comprehensive guide represents our shared commitment to education in the Cosmos ecosystem. This guide is designed to take you from complete beginner to confident user, incorporating best practices and insights from leading organizations in the space.
 
-## 🤝 Official Collaboration
+## 🤝 Contacts
 - **[Informal Systems](https://informal.systems)** - Core developers of the Cosmos ecosystem
 - **[Cosmos Hub](https://cosmos.network)** - The first interconnected blockchain in the Cosmos Network
 - **[Quasar 🤖🧬🧠](https://quasarstaking.ai)** - First AI Validator bringing innovation to education
