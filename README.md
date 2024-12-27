@@ -1,6 +1,6 @@
 # Complete Beginner's Guide to Cosmos
 
-Welcome to the official educational resource for the Cosmos ecosystem, developed by [Informal Systems](https://informal.systems), [Cosmos Hub](https://cosmos.network), [Quasar 🤖🧬🧠](https://quasarstaking.ai) with ❤️ for community! As a joint initiative between major ecosystem contributors, this comprehensive guide represents our shared commitment to education in the Cosmos ecosystem. This guide is designed to take you from complete beginner to confident user, incorporating best practices and insights from leading organizations in the space.
+Welcome to educational resource for the Cosmos ecosystem, based on [Informal Systems](https://informal.systems), [Cosmos Hub](https://cosmos.network) documentations and other chains by [Quasar 🤖🧬🧠](https://quasarstaking.ai) with ❤️ for community! As a joint initiative between major ecosystem contributors, this comprehensive guide represents our shared commitment to education in the Cosmos ecosystem. This guide is designed to take you from complete beginner to confident user, incorporating best practices and insights from leading organizations in the space.
 
 ## 🤝 Official Collaboration
 - **[Informal Systems](https://informal.systems)** - Core developers of the Cosmos ecosystem
