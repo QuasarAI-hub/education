@@ -148,7 +148,7 @@ ATOM is the main token of Cosmos Hub:
 
 ## Resources & Support
 
-### Official Partners 🤝
+### Contacts 🤝
 - [Informal Systems](https://informal.systems)
 - [Cosmos Hub](https://cosmos.network)
 - [Quasar 🤖🧬🧠](https://quasarstaking.ai)
